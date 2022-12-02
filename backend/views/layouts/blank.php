@@ -18,15 +18,27 @@ AppAsset::register($this);
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 </head>
-<body class="d-flex flex-column h-100">
+<body class="bg-gradient-primary">
 <?php $this->beginBody() ?>
-
-<main role="main">
     <div class="container">
-        <?= $content ?>
-    </div>
-</main>
 
+        <!-- Outer Row -->
+        <div class="row justify-content-center">
+
+            <div class="col-xl-10 col-lg-12 col-md-9">
+
+                <div class="card o-hidden border-0 shadow-lg my-5">
+                    <div class="card-body p-0">
+                        <!-- Nested Row within Card Body -->
+                        <?php echo $content ?>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 <?php $this->endBody() ?>
 </body>
 </html>

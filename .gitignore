@@ -41,3 +41,17 @@ phpunit.phar
 /backend/web/index.php
 /backend/web/index-test.php
 /backend/web/robots.txt
+
+/composer.json
+/composer.lock
+/composer.phar
+/init
+/init.bat
+/license.md
+/requirements.php
+/vagrantfile
+/yii
+/yii.bat
+/yii_test
+/yii_test.bat
+

@@ -37,14 +37,19 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        /*
+        // delete bootstrap3 from template
+        'assetManager' => [
+            'bundles' => [
+                yii\bootstrap4\BootstrapAsset::class => false
+            ]
+        ],
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
             ],
         ],
-        */
+        
     ],
     'params' => $params,
 ];
