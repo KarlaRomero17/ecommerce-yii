@@ -54,4 +54,8 @@ phpunit.phar
 /yii.bat
 /yii_test
 /yii_test.bat
-
+/backend/web/vendor/chart.js
+/backend/web/vendor/bootstrap
+/backend/web/vendor/datatables
+/backend/web/vendor/fontawesome-tree
+/backend/web/vendor/jquery
